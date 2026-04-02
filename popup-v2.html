@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flipper AI</title>
+  <link rel="stylesheet" href="popup-v2.css" />
+</head>
+<body>
+  <main class="shell">
+    <header class="hero">
+      <div>
+        <p class="eyebrow">Flipper AI</p>
+        <h1>Deal Finder Assistant</h1>
+        <p class="hero-copy">Review listings faster, spot margin, and keep your best leads organized.</p>
+      </div>
+      <div class="badge">Live</div>
+    </header>
+
+    <section class="score-card">
+      <div>
+        <p class="label">Lead score</p>
+        <p class="score" id="leadScore">87</p>
+      </div>
+      <div class="score-meta">
+        <span id="status">Ready to analyze</span>
+        <span>Fast review flow</span>
+      </div>
+    </section>
+
+    <section class="panel">
+      <div class="panel-head">
+        <h2>Vehicle snapshot</h2>
+        <span class="chip">High potential</span>
+      </div>
+      <ul class="details">
+        <li><span>Price</span><strong id="priceValue">$18,900</strong></li>
+        <li><span>Mileage</span><strong id="mileageValue">94,000 mi</strong></li>
+        <li><span>Market range</span><strong id="marketValue">$21.5k–$24k</strong></li>
+        <li><span>Location</span><strong id="locationValue">Dallas, TX</strong></li>
+      </ul>
+    </section>
+
+    <section class="panel">
+      <div class="panel-head">
+        <h2>Smart insights</h2>
+      </div>
+      <div class="insights">
+        <article>
+          <h3>Upside</h3>
+          <p id="upsideText">Below-market pricing and strong flip potential if recon stays light.</p>
+        </article>
+        <article>
+          <h3>Watch-outs</h3>
+          <p id="watchoutText">Verify title status, interior wear, and tire condition before moving forward.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="actions">
+      <button class="primary" id="analyzeBtn" type="button">Analyze Current Tab</button>
+      <button class="secondary" id="saveBtn" type="button">Save Lead</button>
+    </section>
+
+    <footer class="footer">
+      <span>Extension preview</span>
+      <span id="footerState">Starter build</span>
+    </footer>
+  </main>
+
+  <script src="popup-v2.js"></script>
+</body>
+</html>
