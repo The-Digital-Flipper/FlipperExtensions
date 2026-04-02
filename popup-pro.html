@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flipper AI Pro Popup</title>
+  <link rel="stylesheet" href="popup-pro.css" />
+</head>
+<body>
+  <main class="shell">
+    <header class="hero">
+      <div>
+        <p class="eyebrow">Flipper AI</p>
+        <h1>Deal Finder Assistant</h1>
+        <p class="hero-copy">Scan listings faster, judge margin quicker, and keep your hottest leads in one place.</p>
+      </div>
+      <div class="badge">Preview</div>
+    </header>
+
+    <section class="score-card">
+      <div>
+        <p class="label">Lead score</p>
+        <p class="score" id="leadScore">87</p>
+      </div>
+      <div class="score-meta">
+        <span id="status">Ready to analyze</span>
+        <span>High margin potential</span>
+      </div>
+    </section>
+
+    <section class="grid-two">
+      <article class="mini-card">
+        <span>Price</span>
+        <strong id="priceValue">$18,900</strong>
+      </article>
+      <article class="mini-card">
+        <span>Mileage</span>
+        <strong id="mileageValue">94,000 mi</strong>
+      </article>
+      <article class="mini-card">
+        <span>Market</span>
+        <strong id="marketValue">$21.5k–$24k</strong>
+      </article>
+      <article class="mini-card">
+        <span>Location</span>
+        <strong id="locationValue">Dallas, TX</strong>
+      </article>
+    </section>
+
+    <section class="panel">
+      <div class="panel-head">
+        <h2>Why this lead stands out</h2>
+        <span class="chip">Fast review</span>
+      </div>
+      <div class="insights">
+        <article>
+          <h3>Upside</h3>
+          <p id="upsideText">Below-market pricing and strong resale room if recon is light.</p>
+        </article>
+        <article>
+          <h3>Watch-outs</h3>
+          <p id="watchoutText">Check title status, photos for wear, and tire condition before contacting seller.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="actions">
+      <button class="primary" id="analyzeBtn" type="button">Analyze Current Tab</button>
+      <button class="secondary" id="saveBtn" type="button">Save Lead</button>
+    </section>
+
+    <footer class="footer">
+      <span>Vehicle lead workflow</span>
+      <span id="footerState">Concept UI</span>
+    </footer>
+  </main>
+
+  <script src="popup-pro.js"></script>
+</body>
+</html>
