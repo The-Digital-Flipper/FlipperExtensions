@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #111827;
+  color: #f9fafb;
+  width: 320px;
+}
+
+.app {
+  padding: 16px;
+}
+
+h1 {
+  margin: 0 0 8px;
+  font-size: 20px;
+}
+
+.subtitle {
+  margin: 0 0 16px;
+  color: #9ca3af;
+  font-size: 14px;
+}
+
+.card {
+  background: #1f2937;
+  border-radius: 10px;
+  padding: 14px;
+}
+
+button {
+  width: 100%;
+  margin-top: 12px;
+  padding: 10px 12px;
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+button:hover {
+  opacity: 0.92;
+}
